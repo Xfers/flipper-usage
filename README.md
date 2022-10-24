@@ -1,5 +1,9 @@
 # Flipper usage analysis utilities
 
+## Prerequisites
+* Golang version: 1.16+
+* Git CLI: 2.25+
+
 ## Install
 Via `go install`
 ```
@@ -15,6 +19,7 @@ make
 
 ## Usage
 **Generate flipper flags file first**
+
 Use `./script/dump_flipper_flags.sh` to access flipper database and generate flipper flag list to text file.
 ```
 Usage: dump_flipper_flags.sh db_user db_password db_host db_name output.txt

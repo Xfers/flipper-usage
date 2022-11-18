@@ -6,6 +6,7 @@
 
 ## Install
 Via `go install`
+
 ```
 go install github.com/Xfers/flipper-usage/cmd/flipper-usage-scan@latest
 go install github.com/Xfers/flipper-usage/cmd/flipper-merge-result@latest
